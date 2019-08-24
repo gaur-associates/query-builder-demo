@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>query Builder Demo</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!--   <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap-select/dist/css/bootstrap-select.css"> -->
+
+    <link
+      rel="stylesheet"
+      href="./dist/css/query-builder.default.css"
+      id="qb-theme"
+    />
+  </head>
+  <body>
+    <div style="text-align: center">
+      <a href="http://mistic100.github.io/jQuery-QueryBuilder/" target="new"
+        >jQuery Query Builder Demo
+      </a>
+    </div>
+
+    <div id="builder"></div>
+
+    <button class="btn btn-primary parse-json">Apply</button>
+
+    <div id="result" class="hide">
+      <h3>Output</h3>
+      <pre></pre>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <!--   <script src="/node_modules/bootstrap-select/dist/js/bootstrap-select.js"></script> -->
+    <script src="./dist/js/query-builder.standalone.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
